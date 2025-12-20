@@ -12,7 +12,7 @@
     behaviors {
         hold_tap_preferred: hold_tap_preferred {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP_PREFERRED";
+            label = "HTP";
             bindings = <&none>, <&none>;
 
             #binding-cells = <2>;
