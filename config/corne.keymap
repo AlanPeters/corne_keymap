@@ -37,7 +37,7 @@
             bindings = <
 &kp TAB    &kp Q         &kp W            &kp E         &kp R           &kp T          &kp Y        &kp U         &kp I          &kp O                  &kp P             &kp BSPC
 &kp ESC    &kp A         &kp S            &kp D         &kp F           &kp G          &kp H        &kp J         &kp K          &kp L                  &kp SEMI          &kp SQT
-&kp LSHFT  &htp LCTRL Z  &htp LEFT_ALT X  &kp C         &kp V           &kp B          &kp N        &kp B         &kp COMMA      &htp RIGHT_ALT PERIOD  &htp RCTRL SLASH  &mt RIGHT_SHIFT RET
+&kp LSHFT  &htp LCTRL Z  &htp LEFT_ALT X  &kp C         &kp V           &kp B          &kp N        &kp M         &kp COMMA      &htp RIGHT_ALT PERIOD  &htp RCTRL SLASH  &mt RIGHT_SHIFT RET
                                           &kp LEFT_GUI  &msc SCRL_DOWN  &lt 1 SPACE    &lt 2 SPACE  &msc SCRL_UP  &kp RIGHT_GUI
             >;
         };
