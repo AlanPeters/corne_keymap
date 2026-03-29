@@ -78,15 +78,15 @@
             // -------------------------------------------------             -------------------------------------------------
             // |  F11  |  F1   |  F2   |  F3   |  F4   |  F5   |             |  F6   |  F7   |  F8   |  F9   |  F10  |  F12  |
             // | TRANS |       |GUI(TAB)|C(A(LEFT))|C(A(RIGHT))|GUI(~)|       | LEFT  | DOWN  |  UP   | RIGHT |       |       |
-            // | TRANS | CTRL  |  ALT  |       |       |BOOTLOADER|          |       |       |       |  ALT  | CTRL  | TRANS |
-            //                         |BT_NXT | TRANS | TRANS |             | TRANS | TRANS |SOFT_OFF|
+            // | TRANS | CTRL  |  ALT  |       |       |BOOTLOADER|          | HOME  | PG_DN | PG_UP |  END  | CTRL  | TRANS |
+            //                         |BT_NXT |BT_CLR | TRANS |             | TRANS | TRANS |SOFT_OFF|
 
             display-name = "Middle";
             bindings = <
 &kp F11  &kp F1     &kp F2        &kp F3            &kp F4             &kp F5           &kp F6    &kp F7    &kp F8     &kp F9         &kp F10    &kp F12
 &trans   &none      &kp LG(TAB)   &kp LA(LC(LEFT))  &kp LC(LA(RIGHT))  &kp LG(TILDE)    &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT      &none      &none
-&trans   &kp LCTRL  &kp LEFT_ALT  &none             &none              &bootloader      &none     &none     &none      &kp RIGHT_ALT  &kp RCTRL  &trans
-                                  &bt BT_NXT        &trans             &trans           &trans    &trans    &soft_off
+&trans   &kp LCTRL  &kp LEFT_ALT  &none             &none              &bootloader      &kp HOME  &kp PG_DN &kp PG_UP  &kp END        &kp RCTRL  &trans
+                                  &bt BT_NXT        &bt BT_CLR         &trans           &trans    &trans    &soft_off
             >;
         };
 
